@@ -1,0 +1,16 @@
+{
+  "verbose": true,
+  "transform": {
+    "^.+\\.(ts|tsx|js|jsx)$": "ts-jest",
+    ".+\\.(css|scss|png|jpg|svg|webp)$": "jest-transform-stub"
+  },
+  "moduleNameMapper": {
+    "\\.module\\.css$": "identity-obj-proxy"
+  },
+  "testMatch": ["<rootDir>/src/**/*.test.{ts,tsx,js,jsx}"],
+  "testEnvironment": "jsdom",
+  "globals": {
+    "IS_PROD_MODE": false,
+    "BASE_API": ""
+  }
+}

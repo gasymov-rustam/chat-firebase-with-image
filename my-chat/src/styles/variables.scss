@@ -1,0 +1,56 @@
+:root {
+  /* background */
+  --background-color: #a7bcff;
+  --background-button-color: #5980ff;
+  --background-white-color: #f7f4f4;
+  --background-chat-sidebar: #3e3c61;
+  --background-chat-sidebar-button: #5d5b8d;
+  --background-chat-navbar: #2f2d52;
+  --background-avatar: #ddddf7;
+  --background-send-message-button: #8da4f1;
+
+  /*  text colors */
+  --logo-color: #5d5b8d;
+  --label-color: #8da4f1;
+  --logo-white-color: white;
+  --navbar-color: #ddddf7;
+  --send-message-input-color: #2f2d52;
+
+  /* gaps */
+  --gap-s: 5px;
+  --gap-m: 10px;
+  --gap-l: 15px;
+  --gap-xl: 20px;
+
+  /* margins */
+  --margin-s: 4px;
+  --margin-m: 10px;
+  --margin-l: 20px;
+  --margin-xl: 60px;
+
+  /* paddings */
+  --padding-s: 4px;
+  --padding-m: 10px;
+  --padding-l: 20px;
+  --padding-xl: 60px;
+
+  /* s font size */
+  --font-size-s: 12px;
+
+  /* m font size */
+  --font-size-m: 16px;
+
+  /* l font size */
+  --font-size-l: 24px;
+
+  /* xl font size */
+  --font-size-xl: 32px;
+
+  /* z - index */
+  --modal-z-index: 100;
+  --overlay-z-index: 50;
+
+  /* border-radius */
+  --border-radius: 10px;
+  --border-radius-img: 50%;
+}

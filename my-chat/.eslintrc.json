@@ -1,0 +1,36 @@
+{
+  "extends": [
+    "react-app",
+    "plugin:prettier/recommended",
+    "prettier"
+  ],
+  "plugins": [
+    "prettier"
+  ],
+  "rules": {
+    "react/display-name": "off",
+    "max-len": [
+      "error",
+      {
+        "code": 120,
+        "ignoreComments": true,
+        "ignoreTrailingComments": true,
+        "ignoreUrls": true,
+        "ignoreStrings": true
+      }
+    ],
+    "no-console": [
+      "warn"
+    ],
+    "quotes": [
+      "error",
+      "single"
+    ]
+  },
+  "ignorePatterns": [
+    "vite.config.ts"
+  ],
+  "globals": {
+    "BASE_API": "writable"
+  }
+}

@@ -1,0 +1,78 @@
+@import './home';
+
+.formContainer {
+  background: var(--background-color);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .formWrapper {
+    background: var(--background-white-color);
+    padding: var(--padding-l) var(--font-size-xl);
+    border-radius: var(--border-radius);
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-m);
+    align-items: center;
+
+    .logo {
+      color: var(--logo-color);
+      font-weight: bold;
+      font-size: var(--font-size-l);
+    }
+
+    .title {
+      color: var(--logo-color);
+      font-size: var(--font-size-s);
+    }
+
+    p {
+      color: var(--logo-color);
+      font-size: var(--font-size-s);
+      margin-top: var(--margin-m);
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: var(--gap-l);
+
+      input {
+        padding: calc(var(--padding-m) * 1.5);
+        border: none;
+        width: 250px;
+        border-bottom: 1px solid var(--background-color);
+
+        &::placeholder {
+          color: rgb(175, 175, 175);
+        }
+      }
+
+      label {
+        cursor: pointer;
+        width: fit-content;
+        display: flex;
+        align-items: center;
+        gap: var(--gap-m);
+        color: var(--label-color);
+        font-size: var(--font-size-m);
+        padding: var(--padding-s) var(--padding-m);
+
+        img {
+          width: 32px;
+          object-fit: contain;
+        }
+      }
+
+      button {
+        background: var(--background-button-color);
+        color: var(--logo-white-color);
+        padding: var(--padding-m);
+        font-weight: bold;
+        border: none;
+        cursor: pointer;
+      }
+    }
+  }
+}
