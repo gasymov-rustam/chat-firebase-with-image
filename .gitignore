@@ -10,7 +10,7 @@
 
 # production
 /build
-/chat-from-mentor
+./chat-from-mentor
 
 # misc
 .DS_Store
